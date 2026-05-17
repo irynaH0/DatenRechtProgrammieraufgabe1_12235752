@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TischCode – Gastro. Aber Digital.</title>
+    <title>SmakCode – Gastro. Aber Digital.</title>
     <meta name="description" content="Digitale Speisekarte, QR-Zahlung und Gästefeedback." />
+
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -13,8 +14,8 @@
 
 <header class="site-header" role="banner">
     <div class="container header-inner">
-        <a href="index.html" class="logo" aria-label="TischCode Startseite">
-            TischCode.
+        <a href="index.html" class="logo" aria-label="SmakCode Startseite">
+            <img src="logo1.svg" alt="SmakCode Logo" style="height: 68px; width: auto;">
         </a>
         <nav aria-label="Hauptnavigation" class="main-nav">
             <ul id="nav-links">
@@ -24,8 +25,8 @@
             </ul>
         </nav>
         <div class="header-actions">
-            <a class="button" style="pointer-events: none;">Anmelden</a>
-            <a class="button button-accent" style="pointer-events: none;">Demo anfragen</a>
+            <a class="button" aria-disabled="true" tabindex="-1">Anmelden</a>
+            <a class="button button-accent" href="kontakt.html">Demo anfragen</a>
         </div>
     </div>
 </header>
@@ -36,12 +37,10 @@
         <div class="container hero-grid">
             <div class="hero-text">
                 <h1 id="hero-heading">Ihre Gastronomie.<br>Digital.<br>Einfach.</h1>
-                <p>Vergessen Sie den Papierkram. TischCode bringt Speisekarte, Zahlung und Trinkgeld direkt auf das Smartphone Ihrer Gäste.</p>
+                <p>Vergessen Sie den Papierkram. SmakCode bringt Speisekarte, Zahlung und Trinkgeld direkt auf das Smartphone Ihrer Gäste.</p>
             </div>
-            <div class="hero-visual" aria-hidden="true">
-                <div class="mockup-box">
-                    <p class="mockup-text">App<br>Mockup</p>
-                </div>
+            <div class="hero-visual">
+                <img src="photo1.jpg" alt="Draufsicht auf einen gedeckten Restauranttisch mit verschiedenen Speisen und einem QR-Code-Aufsteller" class="hero-img">
                 <div class="floating-stat">
                     <strong>50+</strong>
                     <span>Betriebe vertrauen uns</span>
@@ -56,19 +55,43 @@
 
             <div class="editorial-grid">
                 <div class="card card-large">
-                    <h3>Digitale Speisekarte</h3>
+                    <div class="card-header">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="card-icon" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                        </svg>
+                        <h3>Digitale Speisekarte</h3>
+                    </div>
                     <p>Erstellen, bearbeiten und veröffentlichen Sie Ihre Speisekarte online. Keine Druckkosten mehr, Änderungen sind sofort sichtbar.</p>
                 </div>
+
                 <div class="card card-dark">
-                    <h3>QR-Code am Tisch</h3>
+                    <div class="card-header">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="card-icon" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5a1.125 1.125 0 0 1-1.125-1.125v-4.5ZM3.75 14.625c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5a1.125 1.125 0 0 1-1.125-1.125v-4.5ZM13.5 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0 1 13.5 9.375v-4.5Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 6.75h.75v.75h-.75v-.75ZM6.75 16.5h.75v.75h-.75v-.75ZM16.5 6.75h.75v.75h-.75v-.75ZM13.5 13.5h.75v.75h-.75v-.75ZM13.5 19.5h.75v.75h-.75v-.75ZM19.5 13.5h.75v.75h-.75v-.75ZM19.5 19.5h.75v.75h-.75v-.75ZM16.5 16.5h.75v.75h-.75v-.75Z" />
+                        </svg>
+                        <h3>QR-Code am Tisch</h3>
+                    </div>
                     <p>Gäste scannen den individuellen QR-Code am Tisch und sehen direkt die aktuelle Karte – ganz ohne lästigen App-Download.</p>
                 </div>
+
                 <div class="card">
-                    <h3>QR-Zahlung</h3>
+                    <div class="card-header">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="card-icon" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+                        </svg>
+                        <h3>QR-Zahlung</h3>
+                    </div>
                     <p>Rechnungen splitten? Kein Problem. Gäste zahlen direkt per QR-Code. Vollständig integriert in Ihr Kassensystem.</p>
                 </div>
+
                 <div class="card">
-                    <h3>Feedback</h3>
+                    <div class="card-header">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="card-icon" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3h9m-9 3h3m-4.5 4.5 3-3h11.25a2.25 2.25 0 0 0 2.25-2.25V5.25a2.25 2.25 0 0 0-2.25-2.25H4.5A2.25 2.25 0 0 0 2.25 5.25v10.5A2.25 2.25 0 0 0 4.5 18h2.25v3.375Z" />
+                        </svg>
+                        <h3>Feedback</h3>
+                    </div>
                     <p>Echtes Feedback pro Gericht. Beschwerden klären Sie direkt intern, bevor sie auf Google landen.</p>
                 </div>
             </div>
@@ -78,34 +101,39 @@
     <section class="section border-top bg-accent" id="wie-es-funktioniert" aria-labelledby="how-heading">
         <div class="container">
             <h2 id="how-heading" class="section-title">In 4 Schritten startklar.</h2>
-            <div class="step-stack">
-                <div class="step-row">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <strong>Registrieren</strong>
-                        <p>Erstellen Sie Ihr kostenloses Konto in unter 2 Minuten.</p>
+            <div class="steps-grid">
+                <div class="step-stack">
+                    <div class="step-row">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <strong>Registrieren</strong>
+                            <p>Erstellen Sie Ihr kostenloses Konto in unter 2 Minuten.</p>
+                        </div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <strong>Karte anlegen</strong>
+                            <p>Importieren oder erstellen Sie Ihre Speisekarte im System.</p>
+                        </div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <strong>QR-Codes drucken</strong>
+                            <p>Generieren Sie individuelle Codes für jeden Ihrer Tische.</p>
+                        </div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <strong>Loslegen</strong>
+                            <p>Ihre Gäste scannen, bestellen und bezahlen. Sie lehnen sich zurück.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="step-row">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <strong>Karte anlegen</strong>
-                        <p>Importieren oder erstellen Sie Ihre Speisekarte im System.</p>
-                    </div>
-                </div>
-                <div class="step-row">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <strong>QR-Codes drucken</strong>
-                        <p>Generieren Sie individuelle Codes für jeden Ihrer Tische.</p>
-                    </div>
-                </div>
-                <div class="step-row">
-                    <div class="step-number">4</div>
-                    <div class="step-content">
-                        <strong>Loslegen</strong>
-                        <p>Ihre Gäste scannen, bestellen und bezahlen. Sie lehnen sich zurück.</p>
-                    </div>
+                <div class="steps-visual">
+                    <img src="photo2.jpg" alt="Nahaufnahme einer Person, die ein Smartphone über einem Teller mit Essen hält, um einen QR-Code zu nutzen" class="steps-img">
                 </div>
             </div>
         </div>
@@ -124,7 +152,7 @@
                         <li>Digitale Speisekarte</li>
                         <li>QR-Code am Tisch (zum direkten Aufrufen der Karte ohne App)</li>
                     </ul>
-                    <a class="button button-outline" style="pointer-events: none;">Starten</a>
+                    <a class="button button-outline" aria-disabled="true" tabindex="-1">Starten</a>
                 </div>
 
                 <div class="card pricing-card highlight">
@@ -137,7 +165,7 @@
                         <li>QR-Zahlung & Digitales Trinkgeld</li>
                         <li>Gästefeedback (für spezifische Gerichte und einzelne Service-Aspekte)</li>
                     </ul>
-                    <a class="button button-accent" style="pointer-events: none;">Starten</a>
+                    <a class="button button-outline" aria-disabled="true" tabindex="-1">Starten</a>
                 </div>
 
                 <div class="card pricing-card">
@@ -149,7 +177,7 @@
                         <li>Zentrales Multi-Standort-Management</li>
                         <li>Nahtlose Kassen-Integration & standortübergreifende Auswertungen</li>
                     </ul>
-                    <a class="button button-outline" style="pointer-events: none;">Starten</a>
+                    <a class="button button-outline" aria-disabled="true" tabindex="-1">Starten</a>
                 </div>
 
             </div>
@@ -161,24 +189,26 @@
 <footer class="site-footer" role="contentinfo">
     <div class="container footer-flex">
         <div class="footer-brand">
-            <h2>TischCode.</h2>
+            <h2>SmakCode</h2>
             <p>Die Software für die moderne Gastro.<br>Made in Austria.</p>
         </div>
         <div class="footer-links">
             <a href="datenschutz.html">Datenschutz</a>
             <a href="impressum.html">Impressum</a>
             <a href="lizenz.html">Lizenz</a>
-            <a href="barrierefreiheit.html">Barrierefreiheit</a>
+            <a href="barrierefreiheitserklaerung.html">Barrierefreiheit</a>
+            <a href="kontakt.html">Kontakt</a>
         </div>
     </div>
 </footer>
 
 <div class="cookie-banner" id="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie-Hinweis">
     <p>Wir nutzen Cookies für Kernfunktionen. Mehr in der <a href="datenschutz.html">Datenschutzerklärung</a>.</p>
-    <button class="button" onclick="document.getElementById('cookie-banner').style.display='none'">OK, verstanden</button>
+    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+        <button class="button" onclick="document.getElementById('cookie-banner').style.display='none'">Ablehnen</button>
+        <button class="button" onclick="document.getElementById('cookie-banner').style.display='none'">Akzeptieren</button>
+    </div>
 </div>
 
 </body>
 </html>
-
-<!-- a -->
